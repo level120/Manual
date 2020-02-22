@@ -1,6 +1,7 @@
 ---
 title: "뭐하기"
 weight: 1
+bookToc: true
 ---
 
 # 테스트

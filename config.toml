@@ -1,7 +1,10 @@
 baseURL = "http://localhoost/"
 languageCode = "ko-kr"
 title = "Manuals"
+description = "Hugo documentation theme as simple as plain book"
 theme = "book"
+min_version = "0.60"
+homepage = "http://www.penta-cube.com"
 
 # code block
 pygmentsCodefences = true
@@ -15,7 +18,43 @@ pygmentsStyle = "pygments"
 #  information on 'doc' type pages.
 enableGitInfo = true
 
+[menu]
+# [[menu.before]]
+[[menu.after]]
+    name = "LMTools(Linux)"
+    url = "https://download.penta-cube.com/Others/License/Utilities(linux).zip"
+    weight = 1
+
+[[menu.after]]
+    name = "LMTools(x64)"
+    url = "https://download.penta-cube.com/Others/License/Utilities(x64).zip"
+    weight = 2
+
+[[menu.after]]
+    name = "LMTools(x86)"
+    url = "https://download.penta-cube.com/Others/License/Utilities(x86).zip"
+    weight = 3
+
+[[menu.after]]
+    name = "Cubic LDRC"
+    url = ""
+    weight = 4
+
 [params]
     # (Optional, default none) Set the path to a logo for the book. If the logo is
     # /static/logo.png then the path would be 'logo.png'
-    BookLogo = 'L.png'
+    BookLogo = 'logo.png'
+
+    # Set source repository location.
+    # Used for 'Last Modified' and 'Edit this page' links.
+    BookRepo = 'https://github.com/level120/Manual'
+
+    # (Optional, default true) Enables search function with flexsearch,
+    # Index is built on fly, therefore it might slowdown your website.
+    # Configuration for indexing can be adjusted in i18n folder per language.
+    BookSearch = false
+
+    # Configure the date format used on the pages
+    # - In git information
+    # - In blog posts
+    BookDateFormat = 'Jan 2, 2006'
