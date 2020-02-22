@@ -1,7 +1,7 @@
 baseURL = "http://localhoost/"
 languageCode = "ko-kr"
 title = "Manuals"
-description = "Hugo documentation theme as simple as plain book"
+description = "펜타큐브 지원 및 도움말"
 theme = "book"
 min_version = "0.60"
 homepage = "http://www.penta-cube.com"
