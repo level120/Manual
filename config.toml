@@ -32,7 +32,7 @@ disablePathToLower = true
 # [[menu.before]]
 [[menu.after]]
     name = "LMTools(Linux)"
-    url = "https://download.penta-cube.com/Others/License/Utilities(linux).zip"
+    url = "https://download.penta-cube.com/Others/License/Utilities(Linux).zip"
     weight = 1
 
 [[menu.after]]
